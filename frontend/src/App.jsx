@@ -32,7 +32,6 @@ export default function App() {
           <Route path="/register" element={<Register />} />
 
           {/* Admin Routes */}
-
           <Route path="/admin" element={<AdminLayout />}>
             <Route
               path="users"
@@ -59,6 +58,7 @@ export default function App() {
               }
             />
           </Route>
+
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
