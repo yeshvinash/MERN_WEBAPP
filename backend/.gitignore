@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+
+# Database and environment files
+*.sqlite3
+*.db
+.env*
+.envrc
+.DS_Store
+
+# Editor/project files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+coverage/
+.mypy_cache/
+pytest_cache/
+*.pot
+*.mo
+
+
